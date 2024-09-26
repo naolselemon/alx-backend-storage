@@ -1,2 +1,2 @@
-// Inserts a document in the school collection. // db.createCollection("school")
-db.school.insert({name: "Holberton school"});
+// Lists all documents in the school collection.
+db.school.find().forEach(printjson);
